@@ -25,7 +25,48 @@ const movies = [
       },
     ],
   },
-  
+  {
+    title: "Lethal Weapon",
+    gifs: [
+      {
+        src: "",
+        alt: "",
+      },
+      {
+        src: "",
+        alt: "",
+      },
+    ],
+  },
+
+  {
+    title: "John Carter",
+    gifs: [
+      {
+        src: "",
+        alt: "",
+      },
+      {
+        src: "",
+        alt: "",
+      },
+    ],
+  },
+
+  {
+    title: "Bridget Jones's Diary",
+    gifs: [
+      {
+        src: "",
+        alt: "",
+      },
+      {
+        src: "",
+        alt: "",
+      },
+    ],
+  },
+
   {
     title: "Scary Movie",
     gifs: [
@@ -41,6 +82,34 @@ const movies = [
   },
 
   {
+    title: "Scooby-Doo",
+    gifs: [
+      {
+        src: "",
+        alt: "",
+      },
+      {
+        src: "",
+        alt: "",
+      },
+    ],
+  },
+
+  {
+    title: "Tomb Raider",
+    gifs: [
+      {
+        src: "",
+        alt: "",
+      },
+      {
+        src: "",
+        alt: "",
+      },
+    ],
+  },
+
+  {
     title: "The Nutty Professor",
     gifs: [
       {
@@ -50,6 +119,20 @@ const movies = [
       {
         src: "https://media.giphy.com/media/NqZ0hWhLXZJSg/giphy.gif",
         alt: "The crazy scientist from the intro to the Powerpuff Girls",
+      },
+    ],
+  },
+
+  {
+    title: "Bad Boys II",
+    gifs: [
+      {
+        src: "",
+        alt: "",
+      },
+      {
+        src: "",
+        alt: "",
       },
     ],
   },
@@ -449,6 +532,6 @@ const movies = [
       },
     ],
   },
-].filter(movie => movie.gifs[0].src.length);
+];
 
 module.exports = movies;

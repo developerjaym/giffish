@@ -14,8 +14,15 @@
 }
 
 .gif {
-  height: 100px;
-  width: 100px;
+  width: 40vh;
+  margin: 1vh;
+}
+
+.gif-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-header {
@@ -40,4 +47,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.no-bullets {
+  list-style: none;
 }
