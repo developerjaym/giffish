@@ -356,12 +356,12 @@ const movies = [
     title: "Doctor Strange",
     gifs: [
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmQxNTMyZjhlNWUwYTUxMzYwOWUzODQ1MzMzYmEwOGJlNzU0ZTgzOCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/hrcYhsqSfzBmwaay8H/giphy.gif",
+        alt: "2 Physicians walk into the room, scene from FRIENDS",
       },
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Y3ZjExMDI5NTgxNmQ0NjU5ZWIyNmU0ZGI5OTczNDY3OTMzNGNkNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/JsXz0NQ2pdWDFwhaHm/giphy.gif",
+        alt: "Winona Ryder with dark hair comments on being unusual",
       },
     ],
   },
