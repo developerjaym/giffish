@@ -13,6 +13,19 @@ const movies = [
     ],
   },
   {
+    title: "Top Gun",
+    gifs: [
+      {
+        src: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDI5ZWE3Y2RlMGUyZjhlN2Q5YzVmYjY0Mzc5YzllNDI1M2NlN2Y5YSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/9UqRcQHzBou6A/giphy.gif",
+        alt: "The spinning top from Inception that Leo uses to determine if he is awake or dreaming.",
+      },
+      {
+        src: "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWIyNTI5NGUzNTk1Yjg3M2UzMGE3YjhhNGVjMmZmZjc0OTk1YzA0ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/12MgUpnxEq3ypy/giphy.gif",
+        alt: "Michael Scott of the Office US shooting like an idiot",
+      },
+    ],
+  },
+  {
     title: "Lethal Weapon",
     gifs: [
       {
@@ -58,12 +71,12 @@ const movies = [
     title: "Scary Movie",
     gifs: [
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/UseBZDm3O00hy/giphy.gif",
+        alt: "Bruce Lee awkwardly screaming with his head vibrating a bit",
       },
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/5w2fo5NhQImXfoovWL/giphy.gif",
+        alt: "Old-fashioned commercial for a camcorder with an oversized VHS tape",
       },
     ],
   },
@@ -100,12 +113,12 @@ const movies = [
     title: "The Nutty Professor",
     gifs: [
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/YdwnurOUkUy88/giphy.gif",
+        alt: "A chipmunk on a turntable holding a bowl of nuts",
       },
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/NqZ0hWhLXZJSg/giphy.gif",
+        alt: "The crazy scientist from the intro to the Powerpuff Girls",
       },
     ],
   },
@@ -128,12 +141,12 @@ const movies = [
     title: "The Silence of the Lambs",
     gifs: [
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/l4EplcXMSWQeN9fQA/giphy.gif",
+        alt: "The librarian from All That loudly shouting, 'Quiet! This is a library!'",
       },
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/zeJTF4QMUVFM4/giphy.gif",
+        alt: "A baby goat fainting out of fear",
       },
     ],
   },
@@ -142,12 +155,12 @@ const movies = [
     title: "Grown Ups",
     gifs: [
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/7JaSUdsHsO0z9yoR25/giphy.gif",
+        alt: "Kevin Hart groaning in an ice bath",
       },
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/LOEMHwUd8U0As7pRdv/giphy.gif",
+        alt: "Conan O'Brien in a U.P.S. uniform and U.P.S. underwear",
       },
     ],
   },
@@ -156,12 +169,12 @@ const movies = [
     title: "Neighbors",
     gifs: [
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/yKTkIoGhp4fks/giphy.gif",
+        alt: "A horse neighing in the cold air",
       },
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/Me8FzKWGBlticgxSRZ/giphy.gif",
+        alt: "A wild pig crossing the road with some baby pigs following",
       },
     ],
   },
@@ -170,12 +183,8 @@ const movies = [
     title: "The Firm",
     gifs: [
       {
-        src: "",
-        alt: "",
-      },
-      {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/HzaZtMwr5XRteISSqo/giphy.gif",
+        alt: "A wavy inflatable arm mascot jumping on a mattress that doesn't look very soft",
       },
     ],
   },
@@ -184,12 +193,12 @@ const movies = [
     title: "10,000 BC",
     gifs: [
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/wIJzcll5mxacwbf45q/giphy.gif",
+        alt: "A Wheel of Fortune player holding a 10,000 dollar prize",
       },
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/QBdU43WCvkUGM14HDu/giphy.gif",
+        alt: "Beautiful scenery in British Columbia",
       },
     ],
   },
@@ -310,12 +319,12 @@ const movies = [
     title: "Skyfall",
     gifs: [
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/RqSJ6nQVsOpxe/giphy.gif",
+        alt: "Bugs Bunny appearing from a hole in the sky",
       },
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/lo5jV0hLNr7Gw/giphy.gif",
+        alt: "A girl standing on a toilet seat that breaks apart, leading to her falling flat on the floor",
       },
     ],
   },
@@ -324,12 +333,20 @@ const movies = [
     title: "Jurassic Park",
     gifs: [
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/e7PS71Mo1DQAjzktgr/giphy.gif",
+        alt: "A jury dabbing",
       },
       {
-        src: "",
-        alt: "",
+        src: "https://media.giphy.com/media/sUt8uDIusftiE/giphy.gif",
+        alt: "A man doing something odd to make a donkey start moving",
+      },
+      {
+        src: "https://media.giphy.com/media/8IXGlKRG5lnpY5EYgx/giphy.gif",
+        alt: "A talking head saying he feels icky inside",
+      },
+      {
+        src: "https://media.giphy.com/media/ozVjnsXu5f0li/giphy.gif",
+        alt: "A cool boy parallel parking a toy car like a boss",
       },
     ],
   },
